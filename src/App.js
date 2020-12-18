@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from 'react-bootstrap/Button'
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           rel="noopener noreferrer"
         >
           
-          Learn React
+          <Button variant="primary">Learn React</Button>
         </a>
       </header>
     </div>
