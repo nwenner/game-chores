@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Form from 'react-bootstrap/Form';
 import FormControl from 'react-bootstrap/FormControl';
+import Game from './tutorial';
 
 function App() {
   return (
@@ -20,17 +21,7 @@ function App() {
           <Button variant="outline-info">Search</Button>
         </Form>
       </Navbar>
-      <header className="App-header">
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          
-          <Button variant="primary">Learn React</Button>
-        </a>
-      </header>
+      <Game></Game>
     </div>
   );
 }
