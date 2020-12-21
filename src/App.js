@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Form from 'react-bootstrap/Form';
 import FormControl from 'react-bootstrap/FormControl';
-import Game from './tutorial';
+import Tutorial from './tutorial/tutorial';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
           <Button variant="outline-info">Search</Button>
         </Form>
       </Navbar>
-      <Game></Game>
+      <Tutorial></Tutorial>
     </div>
   );
 }
